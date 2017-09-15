@@ -197,7 +197,7 @@ export default class HomeScreen extends React.Component {
               img: `${this.state.base_url}${item.photo}`,
               address: `${item.address}`})}
               avatar={<Avatar
-                      source={{uri: `${this.state.base_url}${item.photo}`}}
+                      source={ {uri: `${this.state.base_url} ${item.photo} `} }
                       onPress={() => console.log("Works!")}
                       containerStyle={{marginBottom: 2}}
                       avatarStyle={{resizeMode: "cover"}}
