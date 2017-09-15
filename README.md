@@ -43,7 +43,7 @@ class RestaurantSerializer(serializers.ModelSerializer):
         fields = ('id', 'name', 'photo', 'tags', 'menu', 'publish')
 ```
 
-Then we create an API function in views.py which will server requests at /api/list end point
+Then we create an API function in views.py which will server requests at /api . We will grab data via api.json .
 
 ```python
 
